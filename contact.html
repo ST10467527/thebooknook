@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Book Nook | Contact Us</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="fade-in">
+      <img src="images/logo.png" alt="Book Nook Logo" />
+      <h1>The Book Nook</h1>
+    </header>
+
+    <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+
+    <nav class="fade-in">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <a href="services.html">Services ▾</a>
+          <ul>
+            <li><a href="services.html#books">Books</a></li>
+            <li><a href="services.html#events">Events</a></li>
+            <li><a href="services.html#merch">Merch</a></li>
+          </ul>
+        </li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="intro container fade-in">
+      <h2>Contact Us</h2>
+      <p>
+        We’d love to hear from you! Whether you have a question, suggestion, or
+        want to host an event, our team is here to help.
+      </p>
+    </section>
+
+    <main class="container">
+      <section class="fade-in">
+        <h3>Get in Touch</h3>
+        <form
+          action="https://formspree.io/f/yourformid"
+          method="POST"
+          class="contact-form fade-in"
+        >
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="_replyto" required />
+
+          <label for="messageType">Type of Message:</label>
+          <select id="messageType" name="messageType" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Book Order">Book Order</option>
+            <option value="Event Request">Event Request</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Partnership">Partnership</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </section>
+
+      <section class="fade-in">
+        <h3>Visit Our Store</h3>
+        <p>
+          <strong>Address:</strong> 123 Main Street, Johannesburg, South Africa
+        </p>
+        <p>
+          <strong>Hours:</strong> Mon–Sat: 09:00 – 18:00 | Sun: 09:00 – 14:00
+        </p>
+        <iframe
+          src="https://www.google.com/maps?q=Johannesburg,+South+Africa&output=embed"
+          width="100%"
+          height="250"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          class="fade-in"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer class="fade-in">
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <p>Email: info@booknook.co.za</p>
+        <p>Tel: +27 11 123 4567</p>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+      <p>© 2025 The Book Nook | Designed with ❤️ in South Africa</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

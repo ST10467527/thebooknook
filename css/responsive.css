@@ -1,0 +1,7 @@
+
+@media (max-width: 480px) {
+  header h1 { font-size: 18px; }
+  nav a { padding: 12px; font-size: 14px; }
+  .intro h2 { font-size: 22px; }
+  section { padding: 15px; }
+}
