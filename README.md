@@ -1,4 +1,4 @@
-The Book Nook Website Project – Shortened, Humanised Version
+The Book Nook Website Project
 1. Project Overview
 
 I developed The Book Nook website as a simple, responsive, and visually appealing online platform for a small independent bookstore in Johannesburg. My aim was to give the business a stronger digital presence, make it easier for customers to browse books and events, and ensure the site works well on all devices. The website was built using HTML5 and CSS3 with a focus on accessibility and ease of use.
